@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Camera, Film } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
