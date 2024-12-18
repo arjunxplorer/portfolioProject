@@ -11,12 +11,12 @@ export function SocialLinks() {
   const links: SocialLink[] = [
     {
       icon: <Instagram size={24} />,
-      href: 'https://instagram.com',
+      href: 'https://www.instagram.com/desir.joey/',
       label: 'Instagram'
     },
     {
       icon: <Linkedin size={24} />,
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/joey-desir-380b36262/',
       label: 'LinkedIn'
     }
   ];

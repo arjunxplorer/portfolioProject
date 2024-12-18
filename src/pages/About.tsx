@@ -12,10 +12,10 @@ export function About() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative aspect-[3/4] overflow-hidden rounded-lg"
+            className="relative aspect-[4/4] overflow-hidden rounded-lg"
           >
             <img
-              src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&q=80"
+              src="src\assets\aboutme.png"
               alt="Photographer at work"
               className="object-cover w-full h-full"
             />
