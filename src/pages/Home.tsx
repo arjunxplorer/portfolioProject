@@ -43,7 +43,7 @@ export function Home() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-3xl md:text-3xl font-serif"
           >
-              VIDEOGRAPHY, PHOTOGRAPHY, AND DESIGN
+              VIDEOGRAPHY | PHOTOGRAPHY | DESIGN
 
           </motion.h1>
 
