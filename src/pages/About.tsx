@@ -15,7 +15,7 @@ export function About() {
             className="relative aspect-[4/4] overflow-hidden rounded-lg"
           >
             <img
-              src="src\assets\aboutme.png"
+              src="/aboutme.png"
               alt="Photographer at work"
               className="object-cover w-full h-full"
             />
