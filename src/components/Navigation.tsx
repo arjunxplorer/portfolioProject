@@ -1,5 +1,5 @@
 
-import { Camera, Film } from 'lucide-react';
+import { Camera, Film, User } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 export function Navigation() {
@@ -35,7 +35,19 @@ export function Navigation() {
               }`}
             >
               <Camera size={18} />
-              <span>PHOTOGRAPHS</span>
+              <span>ART</span>
+            </Link>
+
+            <Link
+              to="/about"
+              className={`flex items-center space-x-2 text-sm ${
+                location.pathname === '/about'
+                  ? 'text-white'
+                  : 'text-gray-400 hover:text-white transition-colors'
+              }`}
+            >
+                <User size={18} />
+                <span>ME</span>
             </Link>
           </div>
         </div>

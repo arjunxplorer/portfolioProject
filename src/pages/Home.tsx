@@ -1,8 +1,9 @@
-
-import { motion } from 'framer-motion';
+import {motion } from 'framer-motion';
 
 export function Home() {
   return (
+    <>
+
     <div className="relative min-h-screen bg-black text-white overflow-hidden">
       {/* Background Image */}
       <motion.div
@@ -21,6 +22,7 @@ export function Home() {
 
       {/* Content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4">
+
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -31,11 +33,18 @@ export function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="text-6xl md:text-8xl font-serif mb-6 tracking-tight"
+            className="text-7xl md:text-9xl tracking-wide"style={{ marginBottom: '0.5rem' }}
           >
-            Capture
-            <br />
-            <span className="text-7xl md:text-9xl">Moments</span>
+            CREATIVE
+          </motion.h1>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            className="text-3xl md:text-3xl font-serif"
+          >
+              VIDEOGRAPHY, PHOTOGRAPHY, AND DESIGN
+
           </motion.h1>
 
           <motion.p
@@ -44,7 +53,7 @@ export function Home() {
             transition={{ duration: 0.8, delay: 1.1 }}
             className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-light"
           >
-            Capturing moments that tell stories and share emotions.
+            By Joey Desir
           </motion.p>
 
           <motion.div
@@ -54,11 +63,12 @@ export function Home() {
             className="mt-12"
           >
             <div className="inline-block border border-white/20 rounded-full px-6 py-2 text-sm tracking-wider">
-              Explore More
+              About me
             </div>
           </motion.div>
         </motion.div>
       </div>
+
 
       {/* Animated gradient overlay */}
       <motion.div
@@ -68,5 +78,6 @@ export function Home() {
         className="absolute inset-0 z-0 bg-gradient-to-br from-blue-500/10 to-transparent pointer-events-none"
       />
     </div>
+    </>
   );
 }
