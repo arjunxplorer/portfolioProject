@@ -45,22 +45,20 @@ export function About() {
               className="space-y-4 text-gray-300"
             >
               <p className="leading-relaxed">
-                With over a decade of experience capturing life's most precious moments,
-                I've developed a distinctive style that blends classic photography
-                techniques with modern storytelling.
+              When my mom gave me a little digital camera in 5th grade, I almost immediately started creating fun YouTube videos. Those first reels weren’t anything special, but I was persistent! Now, nearly 10 years later, I still love holding a camera. The camera certainly wasn’t the only thing that my mom has given me in my life. She is the most creative person I know, and I have followed her footsteps by using my imagination as much as I can. Classmates have often looked to me when they need fresh ideas because I’ve been blessed to have the ability to think outside the box. Creativity has been something I have enjoyed my whole life and looking forward, I want to use creativity every day.
+
+Most people know me for being an athlete; the strong work ethic, competitiveness,  leadership, and the pursuit of excellence on and off the field. Although I have loved playing sports my whole life, I think a better way to describe me is completely, 100% sold out for Jesus. My main passion in this short life is to live for the Lord, get to know Him, serve Him, and lead others to saving knowledge of the Gospel.
+
+
+
+
               </p>
 
               <p className="leading-relaxed">
-                My journey began in the darkroom, where I learned to appreciate the
-                subtle interplay of light and shadow. Today, I bring that same attention
-                to detail to every project, whether I'm shooting a intimate portrait
-                or directing a short film.
+              joey
               </p>
 
-              <p className="leading-relaxed">
-                When I'm not behind the camera, you'll find me exploring remote
-                landscapes or teaching photography workshops to aspiring artists.
-              </p>
+
             </motion.div>
 
             <motion.div
