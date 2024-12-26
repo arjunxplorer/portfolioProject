@@ -59,7 +59,7 @@ const photos = [
     },
     {
       id: '10',
-      url: './photo portfolio/FLASH .png',
+      url: './photo portfolio/FLASH.png',
       title: 'Flash',
       category: 'Design'
     },
