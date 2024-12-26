@@ -1,5 +1,5 @@
 import {motion } from 'framer-motion';
-
+import { Link } from 'react-router-dom';
 export function Home() {
   return (
     <>
@@ -32,8 +32,7 @@ export function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="text-7xl md:text-8xl lg:text-9xl tracking-wide"
-            style={{ marginBottom: '0.5rem' }}
+            className="text-7xl md:text-8xl lg:text-[9rem] xl:text-[9rem] tracking-wide leading-none"
           >
             CREATIVE
           </motion.h1>
@@ -41,7 +40,7 @@ export function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="text-3xl font-serif"
+            className="text-3xl font-serif px-4"
           >
             VIDEOGRAPHY | PHOTOGRAPHY | DESIGN
           </motion.h1>
@@ -50,7 +49,7 @@ export function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.1 }}
-            className="text-gray-300 text-lg md:text-xl leading-relaxed font-light mt-2"
+            className="text-gray-300 text-lg md:text-xl leading-relaxed font-light mt-2 px-4"
           >
             By Joey Desir
           </motion.p>
@@ -61,8 +60,11 @@ export function Home() {
             transition={{ duration: 0.8, delay: 1.4 }}
             className="mt-12 flex flex-col items-center md:items-start space-y-6"
           >
-            <div className="inline-block border border-white/20 rounded-full px-6 py-2 text-sm tracking-wider hover:bg-white/10 transition-colors">
-              About me
+            <div className="inline-block border border-white/20 rounded-full px-8 py-2 text-sm tracking-wider hover:bg-white/10 transition-colors">
+             <Link to="./about">
+             About me
+             </Link>
+
             </div>
 
           </motion.div>
