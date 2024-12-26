@@ -15,7 +15,7 @@ export function Home() {
         <img
           src="./bg_image.png"
           alt="Photographer Silhouette"
-          className="w-full h-full object-fit opacity-100"
+          className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
       </motion.div>
